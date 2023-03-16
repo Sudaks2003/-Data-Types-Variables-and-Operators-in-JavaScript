@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>To-Do List</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="heading">
+          <h1>LINE CONVENIENT</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="instructions">
+          <p id="first">
+            For Adding Items to the List Type into the Following Box
+          </p>
+          <p id="second">
+            To Finish Items Which are Kept
+          </p>
+          <p id="third">
+            Click on the "+" Button to Add More Items in the List
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div>
+          <input id="userInput" type="text" placeholder="Add item..." />
+          <button id="submit">+</button>
+        </div>
+      </div>
+
+      <!-- Item List -->
+      <div class="row">
+        <div class="itemList">
+          <ul></ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
